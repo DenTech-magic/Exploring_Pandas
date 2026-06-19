@@ -1,2 +1,2 @@
 # Exploring_Pandas
-A hands-on introduction to data manipulation using Python and Pandas. This project loads a local CSV data table, inspects its dimensions (shape), and explores core DataFrame structures directly within GitHub.
+This project entails data cleaning guide using Pandas. The script loads a time-series dataset, standardizes headers to lowercase, converts text dates into actual timestamp objects, fixes missing data (NaNs), filters out impossible sensor temperatures, removes duplicates, and exports a freshly cleaned CSV file.
