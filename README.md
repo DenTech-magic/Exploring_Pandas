@@ -18,15 +18,9 @@ When the script executes on the raw `time_series_data.csv`, it processes the tab
 (366, 3)
 
 --- First 5 Rows of Cleaned Data ---
-            date  temp_celsius    month
-0     2020-01-01     27.483571  January
-1     2020-01-02     24.308678  January
-2     2020-01-03     28.238443  January
-3     2020-01-04     32.615149  January
-4     2020-01-05     23.829233  January
-
-Success! 'cleaned_time_series_data.csv' has been created.
-
-Output File
-
-The script automatically exports the final, structured dataset into a clean, deployment-ready file named cleaned_time_series_data.csv.
+        date  temp_celsius    month
+0 2020-01-01     27.483571  January
+1 2020-01-02     24.308678  January
+2 2020-01-03     28.238443  January
+3 2020-01-04     32.615149  January
+4 2020-01-05     23.829233  January
