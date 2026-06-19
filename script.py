@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Load the file and use the very first column as the row index labels
-df = pd.read_csv('time_series_data.csv', index_col=0, sep=',')
+df = pd.read_csv('/home/astrotuk/D/data_02/time_series_data.csv', index_col=0, sep=',')
 
 # Convert all column text headers to lowercase and strip out any accidental spaces
 df.columns = df.columns.str.lower().str.strip()
