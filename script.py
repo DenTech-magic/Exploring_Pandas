@@ -32,11 +32,11 @@ df = df.drop_duplicates()
 df['month'] = df['date'].dt.month_name()
 
 # Display the final rows and columns count of the cleaned table on the screen
-print("--- Final Cleaned Table Shape ---")
+print("Cleaned Time-Series Dataset")
 print(df.shape)
 
 # Display a quick preview of the top 5 rows of the processed data
-print("\n--- First 5 Rows of Cleaned Data ---")
+print("\n--- Cleaned Time-Series Dataset ---")
 print(df.head())
 
 # Export the entire cleaned table into a brand new CSV file inside the project folder
